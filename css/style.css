@@ -1,20 +1,55 @@
+
 #header {
-    font-family: dank mono;
+    font-family: Montserrat;
     text-align: center;
 }
 
+#topnav ul li {
+    font-family: Dank mono;
+    list-style-type: none;
+}
+
+#topnav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+#about h3{
+    font-family:montserrat;
+}
+
+#about p{
+    font-family: dank mono;
+}
+
+#projects h3 {
+    font-family:montserrat;
+}
+
+#projects p {
+    font-family: dank mono;
+}
 
 #contact {
+    padding: 20px;
+    border: 1px black solid;
+    border-radius: 50px;
+    background: url(../img/65.png);
+    font-family: dank mono;
     text-align:  center;
-}
+    width: 300px;   
+} 
 
+#contact h3{
+font-family: montserrat;
+}
+            
 #contact a img{
-width: 3%;
-height: auto;
+    width: 55px;
+    height: auto;
 }
-
-
-
 footer {
     text-align: center;
+    font-family : dank mono;
+    font-size: 15px;
 }
