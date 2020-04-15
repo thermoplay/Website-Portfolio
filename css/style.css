@@ -1,55 +1,81 @@
-
-#header {
-    font-family: Montserrat;
-    text-align: center;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-
-#topnav ul li {
+header {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+main { 
+    left: 45%;
+    top: 45%;
+    position: fixed;
+    color: white;
+}
+main h1{
+    font-family: montserrat;
+    font-weight: 300;
+    font-size: 60px;
+}
+main p {
+    font-family: dank mono;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+#vidBg{
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+.logo h1 {
     font-family: Dank mono;
-    list-style-type: none;
+    margin-left: 1rem;
+    margin-top: 1rem;
 }
-
-#topnav ul li a {
+.logo h1 a {
+    font-family: dank mono;
+    padding: .5rem;
+    color:white;
     text-decoration: none;
+}
+.logo h1 a:hover{
+border: 1px solid gray;
+}
+
+
+.topnav ul li {
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.topnav ul li a{
     color: black;
+    font-size: 1.4rem;
+    font-family: Lora;
+    text-decoration: none;
+    padding: 1rem;
+    }
+.topnav ul li a:hover{
+    text-decoration: underline;
 }
 
-#about h3{
-    font-family:montserrat;
+.signup{
+    margin-top: 1rem;
 }
-
-#about p{
-    font-family: dank mono;
+.signup a {
+    color: black;
+    font-size: 1.5rem;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    padding: 0.5rem;
+    margin-right: 2.4rem;
 }
-
-#projects h3 {
-    font-family:montserrat;
-}
-
-#projects p {
-    font-family: dank mono;
-}
-
-#contact {
-    padding: 20px;
-    border: 1px black solid;
-    border-radius: 50px;
-    background: url(../img/65.png);
-    font-family: dank mono;
-    text-align:  center;
-    width: 300px;   
-} 
-
-#contact h3{
-font-family: montserrat;
-}
-            
-#contact a img{
-    width: 55px;
-    height: auto;
-}
-footer {
-    text-align: center;
-    font-family : dank mono;
-    font-size: 15px;
+.signup a:hover {
+    text-decoration: underline;
 }
